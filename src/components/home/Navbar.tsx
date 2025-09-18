@@ -1,38 +1,59 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const navItems = [
-  { href: "#locations", label: "Locations"},
-  { href: "/connect", label: "Connect" },
-  { href: "/about", label: "About Us" },
-  { href: "/give", label: "Give"},
+  { href: "#locations", label: "LOCATIONS" },
+  { href: "/connect", label: "CONNECT" },
+  { href: "/about", label: "ABOUT US" },
+  { href: "/give", label: "GIVE" },
 ];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [show, setShow] = useState(false);
   const pathname = usePathname();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setShow(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-50 flex justify-between items-center h-16 px-6 py-10 bg-white text-black">
+    <header
+      className={`
+        fixed top-0 left-0 w-full z-50
+        flex justify-between items-center h-16 px-6
+        bg-white text-black shadow-md
+        transition-all duration-500
+        ${show ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}
+      `}
+    >
       {/* Logo */}
-      <Link href="/" className="text-2xl font-semibold tracking-tight flex items-center gap-2">
+      <Link
+        href="/"
+        className="text-2xl font-semibold tracking-tight flex items-center gap-2 md:ml-12"
+      >
         AVANT LIFE CHURCH
       </Link>
 
       {/* Desktop Menu */}
-      <nav className="hidden md:flex gap-6">
+      <nav className="hidden md:flex gap-6 md:mr-12 font-semibold">
         {navItems.map((item) => {
           const isActive = pathname === item.href;
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`hover:text-gray-400 transition ${
+              className={`transition hover:text-gray-400 ${
                 isActive ? "text-gray-800" : "text-black"
               }`}
             >
