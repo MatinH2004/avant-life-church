@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function HeroSection() {
   return (
-    <section>
+    <section id="top">
       <div className="relative bg-black h-170">
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           {/* Move logo up with mt-[-3em] */}
@@ -20,6 +20,11 @@ export default function HeroSection() {
             <Button href="#locations" text="Locations" />
             <Button href="/about" text="About Us" />
             <Button href="/give" text="Give" />
+          </div>
+          <div className="hidden mt-4 md:flex md:flex-row gap-4">
+            <Button href="#locations" text="Connect" />
+            <Button href="/give" text="Conference 2025" />
+            <Button href="/about" text="Our Team" />
           </div>
         </div>
         <div className="custom-shape-divider-bottom-1758140629">
