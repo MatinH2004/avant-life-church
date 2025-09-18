@@ -21,7 +21,7 @@ export default function Button({ text, href, bg = "white", bold = true}: ButtonP
     <Link
       href={href}
       className={`
-        ${bg ? colorMap[bg] : colorMap['white']}
+        ${colorMap[bg]}
         ${bold && "font-semibold"}
         inline-block
         rounded-full
