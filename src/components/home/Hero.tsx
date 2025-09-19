@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "../ui/Button";
 
-export default function HeroSection() {
+export default function Hero() {
   return (
     <section id="top">
       <div className="relative bg-black h-170">
