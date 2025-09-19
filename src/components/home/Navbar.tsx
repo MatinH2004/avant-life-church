@@ -7,25 +7,32 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const navItems = [
-  { href: "#locations", label: "LOCATIONS" },
+  { href: "/", label: "HOME" },
+  { href: "/#locations", label: "LOCATIONS" },
   { href: "/connect", label: "CONNECT" },
   { href: "/about", label: "ABOUT US" },
   { href: "/give", label: "GIVE" },
 ];
 
-export default function Navbar() {
+type NavbarProps = {
+  showOnScroll?: boolean;
+};
+
+export default function Navbar({ showOnScroll = false }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(!showOnScroll); // default: visible if not scroll-based
   const pathname = usePathname();
 
   useEffect(() => {
+    if (!showOnScroll) return; // skip scroll logic if always visible
+
     const handleScroll = () => {
       setShow(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [showOnScroll]);
 
   return (
     <header
@@ -34,7 +41,13 @@ export default function Navbar() {
         flex justify-between items-center h-16 px-6
         bg-white text-black shadow-md
         transition-all duration-500
-        ${show ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}
+        ${
+          show
+            ? "opacity-100 translate-y-0"
+            : showOnScroll
+            ? "opacity-0 -translate-y-10"
+            : ""
+        }
       `}
     >
       {/* Logo */}
@@ -64,7 +77,11 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile Menu Button */}
-      <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+      <button
+        className="md:hidden"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label={isOpen ? "Close menu" : "Open menu"}
+      >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
@@ -73,14 +90,14 @@ export default function Navbar() {
         {isOpen && (
           <>
             {/* Blurred Backdrop */}
-            <motion.div
-              className="fixed inset-0 bg-white/50 backdrop-blur-md z-10"
+            {/* <motion.div
+              className="fixed inset-0 bg-white/50 backdrop-blur-md z-40"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
               onClick={() => setIsOpen(false)}
-            />
+            /> */}
 
             {/* Slide-in Menu */}
             <motion.div
@@ -110,6 +127,7 @@ export default function Navbar() {
               <button
                 className="absolute top-4 right-4 text-black hover:text-gray-400"
                 onClick={() => setIsOpen(false)}
+                aria-label="Close menu"
               >
                 <X size={28} />
               </button>
