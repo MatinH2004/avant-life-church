@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <section className="max-w-screen-lg mx-auto px-8">
+    <section className="max-w-screen-lg mx-auto px-8 py-8">
       <h2 className="text-center font-semibold py-6 text-4xl md:text-5xl">
         LEAD PASTORS
       </h2>
