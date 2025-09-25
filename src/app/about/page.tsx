@@ -3,12 +3,14 @@ import Hero from "@/components/home/about/Hero";
 import Footer from "@/components/home/Footer";
 import AboutText from "@/components/home/about/AboutText";
 
-export default function About() {
+export default function AboutPage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <AboutText />
+      <main>
+        <Hero />
+        <AboutText />
+      </main>
       <Footer />
     </>
   )
