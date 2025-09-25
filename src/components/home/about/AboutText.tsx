@@ -2,7 +2,7 @@ export default function AboutText() {
   return (
     <section>
       <h2 className="text-center text-3xl font-semibold">STATEMENT OF FAITH.</h2>
-      <div className="mx-auto px-6 py-8 max-w-screen-sm flex justify-center align-center">
+      <div className="mx-auto px-6 py-8 max-w-screen-sm flex justify-center">
         <p>
           We believe that the Bible is God&apos;s Word. It is accurate, authoritative and applicable to our everyday lives.
           <br /><br />
