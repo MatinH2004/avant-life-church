@@ -60,7 +60,8 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex gap-6 md:mr-12 font-semibold">
-        {navItems.map((item) => {
+        {/* slice from idx 1 to avoid home btn in navbar */}
+        {navItems.slice(1).map((item) => {
           const isActive = pathname === item.href;
           return (
             <Link
