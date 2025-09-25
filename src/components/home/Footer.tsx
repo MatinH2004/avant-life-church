@@ -26,7 +26,8 @@ const footerLinks = [
       { href: "/", label: "Join a Life Group" },
       { href: "/", label: "Find a church" },
       { href: "/", label: "Give Online" },
-      { href: "/", label: "21 Days Devotional", extraClass: "hover:underline" },
+      { href: "/", label: "21 Days Devotional", },
+      { href: "mailto:info@avantlifechurch.com", label: "Inquiries" },
     ],
   },
 ];
@@ -43,7 +44,7 @@ export default function Footer() {
               <li key={link.label}>
                 <Link
                   href={link.href}
-                  className={link.extraClass || ""}
+                  className="hover:underline"
                 >
                   {link.label}
                 </Link>
