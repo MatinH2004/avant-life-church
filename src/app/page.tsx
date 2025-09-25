@@ -6,15 +6,17 @@ import WatchOnline from "@/components/home/WatchOnline";
 import Team from "@/components/home/Team";
 import Footer from "@/components/home/Footer";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Navbar showOnScroll />
-      <Hero />
-      <Carousel />
-      <Locations />
-      <WatchOnline />
-      <Team />
+      <main>
+        <Hero />
+        <Carousel />
+        <Locations />
+        <WatchOnline />
+        <Team />
+      </main>
       <Footer />
     </>
   );
