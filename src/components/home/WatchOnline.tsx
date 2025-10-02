@@ -17,9 +17,9 @@ export default function WatchOnline() {
             part of!
           </p>
           <div className="flex flex-col items-start py-4">
-            <Button href="#" text="WATCH ON YOUTUBE" bg="red" bold={false} />
-            <Button href="#" text="GET CONNECTED" bg="blue" bold={false} />
-            <Button href="#" text="KIDS LIFE" bg="purple" bold={false} />
+            <Button href="https://www.youtube.com/c/AvantLifeChurch" text="WATCH ON YOUTUBE" bg="red" bold={false} />
+            <Button href="/connect" text="GET CONNECTED" bg="blue" bold={false} />
+            <Button href="/kidslife" text="KIDS LIFE" bg="purple" bold={false} />
           </div>
         </div>
 
