@@ -11,15 +11,12 @@ export default function WatchOnline() {
             Join us from anywhere around the world
           </h2>
           <p className="py-4">
-            We have weekly services that are available on our YouTube channel
-            every Sunday from 9AM as well as a great kids program and Connect
-            Groups all around the world that we&apos;d love for you to be a
-            part of!
+            We&apos;d love for you to join us every Sunday at 11:30 AM PST for our weekly service. 
+            Missed a week? Watch past sermons and learn more about our ministries on our YouTube channel.
           </p>
           <div className="flex flex-col items-start py-4">
-            <Button href="https://www.youtube.com/c/AvantLifeChurch" text="WATCH ON YOUTUBE" bg="red" bold={false} />
-            <Button href="/connect" text="GET CONNECTED" bg="blue" bold={false} />
-            <Button href="/kidslife" text="KIDS LIFE" bg="purple" bold={false} />
+            <Button href="https://www.youtube.com/c/AvantLifeChurch" text="YOUTUBE CHANNEL" bg="red" bold={false} />
+            <Button href="https://avantlifechurch.online.church" text="WATCH LIVE" bg="blue" bold={false} />
           </div>
         </div>
 

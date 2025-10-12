@@ -6,24 +6,24 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const slides = [
   {
     id: 1,
-    img: "/images/slide1.jpg",
+    img: "/home/conference.png",
     text: "Conference 2025",
     cta: "Register Today",
-    link: "#",
+    link: "/conference",
   },
   {
     id: 2,
-    img: "/images/slide2.jpg",
+    img: "/home/21-days-logo.png",
     text: "21 Days",
     cta: "Sign Up",
-    link: "#",
+    link: "/21days",
   },
   {
     id: 3,
-    img: "/images/slide3.jpg",
+    img: "/home/matt-g.jpg",
     text: "Join Alpha",
     cta: "Learn More",
-    link: "#",
+    link: "/alpha",
   },
 ];
 

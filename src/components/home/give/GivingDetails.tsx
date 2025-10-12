@@ -1,28 +1,24 @@
 export default function GivingDetails() {
   const details = [
     {
-      heading: "We Believe in Giving Out of Conviction and Not Out of Compulsion",
-      text: `A tithe simply means a "tenth". Tithing is our tangible way of bringing to God that which belongs to Him anyway. 
-      It’s our obedient response to His clear command to bring the first tenth of our income into the storehouse. 
-      God’s promise is that our obedience brings us divine protection. We don’t tithe to "get" – we tithe to obey.`,
+      heading: "Tithes & Offerings",
+      text: `At Avant Life Church, we believe in the biblical principle of tithes and offerings. Giving is not just about money, 
+      it’s about obedience, faith, and generosity. Tithing teaches us discipline and trust in God’s provision, while offerings flow 
+      from a heart that longs to see His Kingdom advance. As followers of Jesus, we are called to build His Church not only with our 
+      time and talents but also with our finances. Every gift sown makes a way for lives to be transformed, communities to be reached, 
+      and the message of Jesus to impact generations.`,
     },
     {
-      heading: "What About Offerings",
-      text: `Offerings are our free-will giving, over and above the tithe. God speaks about the principles of sowing and reaping, 
-      and free-will offerings, in every area of our lives, and this includes our finances. Please prayerfully, intentionally, 
-      and responsibly consider the offerings you give – according to your personal conviction and the measure of your 
-      relationship with God. We don’t advise people to go into debt to give offerings, but this is between you and God.`,
-    },
-    {
-      heading: "What Are the Consequences Either Way?",
-      text: `Avant Life Church doesn’t differentiate in our care for anyone based on giving. Giving is a personal matter between you and God. 
-      Whether you follow this or decide against it, that is between you and Him. We will continue to love and support every person 
-      who wants to be part of our church, without regard to whether they give, or not, and how much they give.`,
+      heading: "How We Give",
+      text: `At Avant Life Church, we don’t pause our services to take up tithes and offerings. Instead, we encourage everyone to seek 
+      the Lord throughout the week and give out of prayerful obedience, faith, and generosity. To make it simple and intentional, we 
+      provide several ways to give - online through e-transfer ( giving@avantlifechurch.com ), our website, or in person at one of our 
+      giving stations. We believe generosity is a lifestyle, and every gift makes a difference in building the Church and advancing God’s Kingdom.`,
     },
   ];
 
   return (
-    <section className="max-w-2xl mx-auto px-6 py-10">
+    <section className="max-w-2xl mx-auto px-6 py-8">
       {details.map((item, index) => (
         <div key={index} className="mb-8">
           <h2 className="text-2xl text-center font-bold mb-4">{item.heading}</h2>
