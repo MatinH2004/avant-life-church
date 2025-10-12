@@ -10,7 +10,7 @@ export default function Team() {
         <Image
           alt="Avant Life Lead Pastors"
           src="/home/bemma.jpg"
-          width={300}
+          width={390}
           height={200}
           className="object-contain rounded-xl"
         />
