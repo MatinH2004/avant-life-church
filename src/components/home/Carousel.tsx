@@ -63,10 +63,10 @@ export default function Carousel() {
                 src={slide.img}
                 alt={slide.text}
                 fill
-                className="object-cover rounded-3xl"
+                className="object-fit md:object-cover rounded-3xl"
                 priority
               />
-              <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center p-6">
+              <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center p-6">
                 <h2 className="text-3xl font-bold text-white mb-4">
                   {slide.text}
                 </h2>
