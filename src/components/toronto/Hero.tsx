@@ -53,7 +53,7 @@ export default function Hero() {
         >
           <source
             src="/toronto/TO_Cover.webm"
-            type="video/mp4"
+            type="video/webm"
           />
         </video>
 

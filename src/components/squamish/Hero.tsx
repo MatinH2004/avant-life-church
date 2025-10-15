@@ -35,7 +35,7 @@ export default function Hero() {
     <section id="top">
       <div className="relative h-[42rem] overflow-hidden">
         <Image
-          src="/squamish/Cover_SQ.webp"
+          src="/squamish/SQ_Cover.webp"
           alt="Background"
           fill
           priority
@@ -53,7 +53,7 @@ export default function Hero() {
         >
           <source
             src="/squamish/SQ_Cover.webm"
-            type="video/mp4"
+            type="video/webm"
           />
         </video>
 
