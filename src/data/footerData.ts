@@ -38,20 +38,28 @@ export const footerData = [
     title: "ABOUT US",
     items: [
       { 
-        label: "We Believe",
-        href: "/about",
-      },
-      { 
-        label: "Our Team",
-        href: "/",
-      },
-      { 
         label: "Our Mission",
-        href: "/",
+        href: "/about/#our-mission",
       },
       { 
-        label: "About Jesus",
-        href: "/",
+        label: "The Church We See",
+        href: "/about/#the-church-we-see",
+      },
+      { 
+        label: "Our Belief",
+        href: "/about/#our-belief",
+      },
+      {
+        label: "A Culture of Serving",
+        href: "/about/#a-culture-of-serving",
+      },
+      { 
+        label: "Created to Worship",
+        href: "/about/#created-to-worship",
+      },
+      {
+        label: "Women in Leadership",
+        href: "/about/#women-in-leadership",
       },
     ],
   },
