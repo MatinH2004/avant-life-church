@@ -10,8 +10,8 @@ export default function GivingPage() {
       <Navbar />
       <main>
         <Hero />
-        <GivingMethods />
         <GivingDetails />
+        <GivingMethods />
       </main>
       <Footer />
     </>
