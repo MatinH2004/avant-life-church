@@ -6,14 +6,14 @@ export default function Hero() {
       <div className="relative bg-black h-170 w-full">
         {/* BG Image */}
         <Image
-          src="/home/about-us.jpg"
+          src="/home/about-us-cover.webp"
           alt="Background"
           fill
           priority
           className="object-cover object-center"
         />
         {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <Image
