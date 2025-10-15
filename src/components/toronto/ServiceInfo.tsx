@@ -40,7 +40,7 @@ export default function ServiceInfo() {
               <h2 className="text-3xl md:text-4xl font-bold my-6">Sunday Service</h2>
               <p className="mt-2">9:30am</p>
               <p className="mt-2 mb-10">Scotia Bank Theatre ~ 259 Richmond St W, Toronto, ON</p>
-              <Button text="Directions" href="https://maps.app.goo.gl/zt6WAU7e9MH1RmHZA" bg="white" bold={false} />
+              <Button text="Directions" href="https://maps.app.goo.gl/YDKPLCLRy3Q3wZLp6" bg="white" bold={false} />
             </div>
           </div>
 

@@ -8,7 +8,7 @@ export default function ServiceInfo() {
         <div className="relative h-[420px] md:h-[520px]">
           {/* Background image */}
           <Image
-            src="/squamish/Cover_SQ.webp"
+            src="/squamish/SQ_Cover.webp"
             alt="North Shore Location"
             fill
             priority
@@ -40,7 +40,7 @@ export default function ServiceInfo() {
               <h2 className="text-3xl md:text-4xl font-bold my-6">Sunday Service</h2>
               <p className="mt-2">10:00am</p>
               <p className="mt-2 mb-10">38647 Buckley Ave, Squamish, BC</p>
-              <Button text="Directions" href="https://maps.app.goo.gl/zt6WAU7e9MH1RmHZA" bg="white" bold={false} />
+              <Button text="Directions" href="https://maps.app.goo.gl/adt6VMwDsTzwZ2icA" bg="white" bold={false} />
             </div>
           </div>
 

@@ -8,15 +8,15 @@ export default function ServiceInfo() {
         <div className="relative h-[420px] md:h-[520px]">
           {/* Background image */}
           <Image
-            src="/northshore/northshore.jpg"
+            src="/northshore/NS_Cover.webp"
             alt="North Shore Location"
             fill
             priority
-            className="object-cover object-center"
+            className="object-cover"
           />
 
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-black/50" />
 
           {/* Top curve */}
           <div className="absolute top-0 left-0 right-0 pointer-events-none z-20">
