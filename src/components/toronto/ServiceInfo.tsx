@@ -8,7 +8,7 @@ export default function ServiceInfo() {
         <div className="relative h-[420px] md:h-[520px]">
           {/* Background image */}
           <Image
-            src="/northshore/northshore.jpg"
+            src="/toronto/TO_Cover.webp"
             alt="North Shore Location"
             fill
             priority
@@ -16,7 +16,7 @@ export default function ServiceInfo() {
           />
 
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-black/50" />
 
           {/* Top curve */}
           <div className="absolute top-0 left-0 right-0 pointer-events-none z-20">
@@ -38,8 +38,8 @@ export default function ServiceInfo() {
           <div className="absolute inset-0 flex items-center justify-center z-30">
             <div className="max-w-3xl text-center px-6 text-white">
               <h2 className="text-3xl md:text-4xl font-bold my-6">Sunday Service</h2>
-              <p className="mt-2">9:00am &amp; 11:30am</p>
-              <p className="mt-2 mb-10">4840 Capilano Road, North Vancouver, BC</p>
+              <p className="mt-2">9:30am</p>
+              <p className="mt-2 mb-10">Scotia Bank Theatre ~ 259 Richmond St W, Toronto, ON</p>
               <Button text="Directions" href="https://maps.app.goo.gl/zt6WAU7e9MH1RmHZA" bg="white" bold={false} />
             </div>
           </div>
