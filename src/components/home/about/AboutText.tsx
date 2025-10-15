@@ -127,9 +127,9 @@ interface ContentSectionProps extends Sections {
 
 function ContentSection({ id, title, paragraphs }: ContentSectionProps) {
   return (
-    <section id={id} className="py-8 scroll-mt-24">
+    <section id={id} className="px-6 py-8 scroll-mt-24">
       <h2 className="text-center text-3xl font-semibold mb-4">{title}</h2>
-      <div className="mx-auto px-6 max-w-screen-sm flex justify-center">
+      <div className="mx-auto max-w-screen-sm flex justify-center">
         <div className="space-y-4 text-justify">
           {paragraphs.map((text, i) => (
             <p key={i} dangerouslySetInnerHTML={{ __html: text }} />

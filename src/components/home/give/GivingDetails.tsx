@@ -18,7 +18,7 @@ export default function GivingDetails() {
   ];
 
   return (
-    <section className="max-w-2xl mx-auto px-6 py-8">
+    <section className="px-6 py-4 max-w-2xl mx-auto">
       {details.map((item, index) => (
         <div key={index} className="mb-8">
           <h2 className="text-2xl text-center font-bold mb-4">{item.heading}</h2>

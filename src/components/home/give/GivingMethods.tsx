@@ -3,7 +3,7 @@ import Button from "@/components/ui/Button";
 
 export default function GivingMethods() {
   return (
-    <section className="px-6 py-10">
+    <section className="px-6 py-4">
       <h2 className="text-3xl text-center font-bold mb-8">
         WAYS TO GIVE ONLINE
       </h2>
@@ -37,7 +37,7 @@ export default function GivingMethods() {
             You can also give securely online through Pushpay, supporting our
             mission in a simple and convenient way.
           </p>
-          <Button text="Give via PushPay" href="https://pushpay.com/g/avantlifechurch?src=hpp" bg="black"/>
+          <Button text="Give Online" href="https://pushpay.com/g/avantlifechurch?src=hpp" bg="black"/>
         </div>
       </div>
     </section>

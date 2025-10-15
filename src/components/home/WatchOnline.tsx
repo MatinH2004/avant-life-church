@@ -11,7 +11,7 @@ export default function WatchOnline() {
             Join us from anywhere around the world
           </h2>
           <p className="py-4">
-            We&apos;d love for you to join us every Sunday at 11:30 AM PST for our weekly service. 
+            We&apos;d love for you to join us online every Sunday at 11:30 AM PST for our weekly service. 
             Missed a week? Watch past sermons and learn more about our ministries on our YouTube channel.
           </p>
           <div className="flex flex-col items-start py-4">

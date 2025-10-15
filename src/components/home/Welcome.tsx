@@ -1,11 +1,11 @@
 export default function Welcome() {
   return (
-    <section className="py-8 flex flex-col justify-center items-center">
-      <div className="px-12 max-w-4xl">
+    <section className="px-6 py-8 flex flex-col justify-center items-center">
+      <div className="max-w-4xl">
         <h2 className="text-4xl text-center font-semibold">
           Welcome to Avant Life Church
         </h2>
-        <p className="py-4 md:text-center">
+        <p className="py-4 text-center">
           We&apos;re so glad you&apos;re here. This isn&apos;t just a Church, it&apos;s a movement. 
           A place where you can belong before you believe, where questions are welcomed, and where 
           Jesus is the centre of it all. At Avant Life Church, we believe faith is meant to be alive, 

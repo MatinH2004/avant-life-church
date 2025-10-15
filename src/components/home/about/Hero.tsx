@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section id="top">
-      <div className="relative bg-black h-170 w-full">
+      <div className="relative bg-black h-125 w-full">
         {/* BG Image */}
         <Image
           src="/home/about-us-cover.webp"

@@ -1,7 +1,7 @@
 export default function Details() {
   return (
-    <div>
+    <section className="px-6">
       
-    </div>
+    </section>
   ); 
 }

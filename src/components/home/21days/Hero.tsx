@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section id="top">
-      <div className="relative h-170 w-full bg-[#0b8944]">
+      <div className="relative h-125 w-full bg-[#0b8944]">
         {/* Dark Overlay */}
         <div className="absolute inset-0 "></div>
         {/* Content */}
@@ -11,12 +11,11 @@ export default function Hero() {
           <Image
             src="/home/21-days-logo.png"
             alt="Avant Life Church Logo"
-            width={500}
+            width={410}
             height={180}
             priority
             className="mt-[-3em]"
           />
-          <h1 className="hidden">21 DAYS</h1>
         </div>
         {/* Shape Divider */}
         <div className="custom-shape-divider-bottom-1758140629">
