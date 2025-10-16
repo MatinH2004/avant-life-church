@@ -71,10 +71,3 @@ function ContentSection({ title, paragraphs }: Sections) {
     </section>
   );
 }
-
-
-// KidsLife is an innovative children’s ministry that exists to love, care for and serve children and families. We believe in raising children that love Jesus with their whole heart and teaching them how to live in such a way that honours and worships Him through every area of their life.
-
-// At KidsLife, we foster the fun, limitless and natural faith that children possess. We  provide a safe and nurturing environment, where children can encounter the love of Jesus through praise and worship, prayer, communion, giving, teaching the Bible and lots of fun games and activities.
-
-// We seek to make following Jesus a fun and exciting journey that everyone wants to be a part of!

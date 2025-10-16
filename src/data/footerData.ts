@@ -64,6 +64,27 @@ export const footerData = [
     ],
   },
   {
+    title: "MINISTRIES",
+    items: [
+      {
+        label: "Avant Life Youth",
+        href: "/youth",
+      },
+      {
+        label: "KidsLife",
+        href: "/kidslife",
+      },
+      {
+        label: "Alpha",
+        href: "/alpha",
+      },
+      {
+        label: "Mission Partners",
+        href: "/",
+      },
+    ],
+  },
+  {
     title: "LOCATIONS",
     items: campuses.map(campus => {
       return { 
