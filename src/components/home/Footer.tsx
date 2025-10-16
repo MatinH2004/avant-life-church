@@ -8,7 +8,7 @@ export default function Footer() {
       {/* Render sections dynamically */}
       {footerData.map((section) => (
         <div key={section.title} className="mb-6 md:mb-0">
-          <h3 className="text-xl mb-2">{section.title}</h3>
+          <h3 className="text-xl mb-2 italic">{section.title}</h3>
           <ul>
             {section.items.map((link) => (
               <li key={link.label}>
