@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-interface slidesProps {
+interface CarouselProps {
   id: number;
   img: string;
   href: string;
@@ -13,7 +13,7 @@ interface slidesProps {
   text?: string;
 };
 
-const slides: slidesProps[] = [
+const slides: CarouselProps[] = [
   {
     id: 1,
     img: "/home/conference.png",
