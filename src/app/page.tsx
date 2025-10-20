@@ -1,25 +1,19 @@
-import Navbar from "@/components/home/Navbar";
 import Hero from "@/components/home/Hero";
-import Carousel from "@/components/home/Carousel";
+import Carousel from "@/components/ui/Carousel";
 import Welcome from "@/components/home/Welcome";
 import Locations from "@/components/home/Locations";
 import WatchOnline from "@/components/home/WatchOnline";
 import Team from "@/components/home/Team";
-import Footer from "@/components/home/Footer";
 
 export default function HomePage() {
   return (
     <>
-      <Navbar showOnScroll />
-      <main>
-        <Hero />
-        <Carousel />
-        <Welcome />
-        <Locations />
-        <WatchOnline />
-        <Team />
-      </main>
-      <Footer />
+      <Hero />
+      <Carousel />
+      <Welcome />
+      <Locations />
+      <WatchOnline />
+      <Team />
     </>
   );
 }

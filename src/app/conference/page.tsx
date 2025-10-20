@@ -1,17 +1,11 @@
-import Navbar from "@/components/home/Navbar";
-import Hero from "@/components/home/conference/Hero";
-import Details from "@/components/home/conference/Details";
-import Footer from "@/components/home/Footer";
+import Hero from "@/components/conference/Hero";
+import Details from "@/components/conference/Details";
 
 export default function ConferencePage() {
   return (
     <>
-      <Navbar />
-      <main>
-        <Hero />
-        <Details />
-      </main>
-      <Footer />
+      <Hero />
+      <Details />
     </>
   );
 }

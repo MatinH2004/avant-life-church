@@ -1,6 +1,6 @@
-import Carousel from "@/components/home/youth/Carousel";
-import FAQ from "@/components/home/youth/FAQ";
-import JoinUs from "@/components/home/youth/JoinUs";
+import Carousel from "@/components/youth/Carousel";
+import FAQ from "@/components/youth/FAQ";
+import JoinUs from "@/components/youth/JoinUs";
 
 interface Sections {
   title?: string;

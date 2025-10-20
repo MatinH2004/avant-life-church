@@ -1,19 +1,13 @@
-import Footer from "@/components/home/Footer";
-import GivingDetails from "@/components/home/give/GivingDetails";
-import GivingMethods from "@/components/home/give/GivingMethods";
-import Hero from "@/components/home/give/Hero";
-import Navbar from "@/components/home/Navbar";
+import GivingDetails from "@/components/give/GivingDetails";
+import GivingMethods from "@/components/give/GivingMethods";
+import Hero from "@/components/give/Hero";
 
 export default function GivingPage() {
   return (
     <>
-      <Navbar />
-      <main>
         <Hero />
         <GivingDetails />
         <GivingMethods />
-      </main>
-      <Footer />
     </>
   );
 }
