@@ -75,13 +75,13 @@ export const footerData = [
         href: "/kidslife",
       },
       {
-        label: "Alpha",
+        label: "Try Alpha",
         href: "/alpha",
       },
-      {
-        label: "Mission Partners",
-        href: "/",
-      },
+      // {
+      //   label: "Mission Partners",
+      //   href: "/",
+      // },
     ],
   },
   {
