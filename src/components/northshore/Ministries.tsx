@@ -8,12 +8,12 @@ const cards = [
   },
   {
     title: "YOUNG ADULTS",
-    href: "/youth",
+    href: "/",
     image: "/home/YA.jpg",
   },
   {
     title: "AVANT LIFE YOUTH",
-    href: "/aly",
+    href: "/youth",
     image: "/youth/ALY_Cover.webp",
   },
   {
