@@ -31,7 +31,7 @@ const slides: CarouselProps[] = [
     img: "/home/ALPHA.jpeg",
     href: "/alpha",
     alt: "Alpha",
-    text: "ALPHA",
+    text: "TRY ALPHA",
   },
 ];
 
