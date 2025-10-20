@@ -6,6 +6,13 @@ interface Sections {
 export default function AboutText() {
   const sections: Sections[] = [
     {
+      title: "Welcome to Avant Life Church",
+      paragraphs: [
+        `We&apos;re so glad you&apos;re here. This isn&apos;t just a Church, it&apos;s a movement. A place where you can belong before you believe, where questions are welcomed, and where Jesus is the centre of it all.`,
+        `At Avant Life Church, we believe faith is meant to be alive, creative, and world-changing. We&apos;re passionate about building a Church that doesn&apos;t just gather on Sundays but steps out to influence schools, workplaces, neighbourhoods, and cities. Our prayer is that as you flip through these pages, you&apos;ll catch a glimpse of the future God is writing and realize you&apos;re invited to be part of it.`
+      ],
+    },
+    {
       title: "Our Mission",
       paragraphs: [
         `We&apos;re here to impact the world by starting right here in Canada, building a Church that&apos;s alive, bold, and centred on Jesus. A Church where the Bible is our foundation, but our expression is creative, innovative, and life-giving. We believe God has called us to shift mindsets, raise leaders, and empower people to influence culture in every sphere of life. Because God&apos;s not finished and neither are we.`,
