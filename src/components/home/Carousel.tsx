@@ -66,7 +66,7 @@ export default function Carousel() {
             <Link
               key={slide.id}
               href={slide.href}
-              className="w-full flex-shrink-0 relative h-[400px]"
+              className="w-full flex-shrink-0 relative h-[24rem]"
             >
               <Image
                 src={slide.img}
