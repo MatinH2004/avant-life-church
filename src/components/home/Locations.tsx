@@ -5,7 +5,7 @@ import { campuses } from "@/data/campusData";
 
 export default function Locations() {
   return (
-    <section id="locations" className="py-8">
+    <section id="locations" className="py-6">
       <h2 className="font-semibold text-2xl text-center">Our Locations</h2>
       <p className="px-6 py-4 text-center">
         Join us for weekly services with full kids programs! Select your region below to find an Avant Life Church near you now.
