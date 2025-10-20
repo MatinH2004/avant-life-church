@@ -1,23 +1,66 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { FaFacebookF, FaYoutube, FaInstagram, FaSpotify, FaSoundcloud, FaApple } from "react-icons/fa";
 
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+
+    v.muted = true;
+
+    v.play().catch((err) => {
+      console.warn("Autoplay prevented, will wait for interaction:", err);
+    });
+
+    const tryPlay = () => {
+      if (v.paused) {
+        v.play().catch(() => {});
+      }
+    };
+
+    document.addEventListener("click", tryPlay, { once: true });
+    document.addEventListener("mousemove", tryPlay, { once: true });
+
+    return () => {
+      document.removeEventListener("click", tryPlay);
+      document.removeEventListener("mousemove", tryPlay);
+    };
+  }, []);
   return (
     <section id="top">
-      <div className="relative bg-black h-170 w-full">
-        {/* BG Image */}
+      <div className="relative h-[42rem] overflow-hidden">
         <Image
-          src="/northshore/Cover_NS.webp"
+          src="/northshore/NS_Cover.webp"
           alt="Background"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover"
         />
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
-        {/* Content */}
+
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="absolute inset-0 w-full h-full object-cover user-select-none pointer-events-none"
+        >
+          <source
+            src="/northshore/NS_Cover.webm"
+            type="video/webm"
+          />
+        </video>
+
+        <div className="absolute inset-0 bg-black/30"></div>
+
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-          {/* Logo */}
+
           <Image
             src="/global/avant-logo-white.png"
             alt="Avant Life Church Logo"
@@ -27,7 +70,7 @@ export default function Hero() {
             className="mt-[-6em]"
           />
           <h1 className="text-white font-bold text-5xl md:text-5xl mt-5">NORTH SHORE</h1>
-          {/* Social Media Icons */}
+
           <div className="flex flex-wrap justify-center space-x-6 mt-6 text-white text-2xl">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="hover:text-blue-500 transition-colors" />
@@ -49,7 +92,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        {/* Shape Divider */}
+
         <div className="custom-shape-divider-bottom-1758140629">
           <svg
             data-name="Layer 1"
