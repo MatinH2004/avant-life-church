@@ -6,7 +6,10 @@ import { campuses } from "@/data/campusData";
 export default function Locations() {
   return (
     <section id="locations" className="py-8">
-      <h2 className="font-semibold text-2xl text-center mb-6">Our Locations</h2>
+      <h2 className="font-semibold text-2xl text-center">Our Locations</h2>
+      <p className="px-6 py-4 text-center">
+        Join us for weekly services with full kids programs! Select your region below to find an Avant Life Church near you now.
+      </p>
       <div className="flex justify-center">
         <Image
           src="/home/canada-map.png"
@@ -31,7 +34,7 @@ export default function Locations() {
               href={campus.href}
               className="
                 block w-full md:w-auto
-                px-4 py-4
+                px-6 py-4
                 flex justify-between md:justify-center items-center
                 hover:font-semibold transition hover:translate-x-[10px]
               "
