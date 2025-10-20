@@ -16,9 +16,7 @@ const faqs = [
   {
     question: "Should I bring anything?",
     answer: `
-      Bring your friends — the more the merrier! We ask everyone to bring 
-      <strong>$5</strong> to cover food and snacks for the evening. 
-      Other than that, just bring your energy and be ready for a great time!
+      Bring your friends and your energy and be ready for a great time!
     `,
   },
   {
