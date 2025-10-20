@@ -1,29 +1,37 @@
 "use client";
-import { useState, useEffect } from "react";
+
 import Image from "next/image";
+import Link from "next/link";
+import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const slides = [
+interface slidesProps {
+  id: number;
+  img: string;
+  href: string;
+  alt: string;
+  text?: string;
+};
+
+const slides: slidesProps[] = [
   {
     id: 1,
     img: "/home/conference.png",
-    text: "Conference 2025",
-    cta: "Register Today",
-    link: "/conference",
+    href: "/conference",
+    alt: "Conference Registration",
   },
   {
     id: 2,
     img: "/home/21-days-logo.png",
-    text: "21 Days",
-    cta: "Sign Up",
-    link: "/21days",
+    href: "/21days",
+    alt: "21 Days Sign Up",
   },
   {
     id: 3,
-    img: "/home/matt-g.jpg",
-    text: "Join Alpha",
-    cta: "Learn More",
-    link: "/alpha",
+    img: "/home/ALPHA.jpeg",
+    href: "/alpha",
+    alt: "Alpha",
+    text: "ALPHA",
   },
 ];
 
@@ -47,50 +55,48 @@ export default function Carousel() {
   };
 
   return (
-    <section className="px-12 pb-12">
-      <div className="relative overflow-hidden bg-black h-[400px] max-w-screen-xl rounded-3xl mx-auto">
+    <section className="px-2 py-6">
+      <div className="relative overflow-hidden bg-none h-[24rem] max-w-screen-lg rounded-3xl mx-auto">
         {/* Slides */}
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${current * 100}%)` }}
         >
           {slides.map((slide) => (
-            <div
+            <Link
               key={slide.id}
+              href={slide.href}
               className="w-full flex-shrink-0 relative h-[400px]"
             >
               <Image
                 src={slide.img}
-                alt={slide.text}
+                alt={slide.alt}
                 fill
-                className="object-fit md:object-cover rounded-3xl"
+                className="object-cover rounded-3xl"
                 priority
               />
-              <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center p-6">
-                <h2 className="text-3xl font-bold text-white mb-4">
-                  {slide.text}
-                </h2>
-                <a
-                  href={slide.link}
-                  className="px-6 py-3 rounded-full text-lg font-semibold bg-white text-black hover:bg-gray-200 transition"
-                >
-                  {slide.cta}
-                </a>
-              </div>
-            </div>
+              {slide.text && <>
+                <div className="absolute inset-0 bg-black/40 rounded-3xl pointer-events-none" />
+                <span className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-white underline text-5xl font-bold px-8 py-4 rounded-2xl">
+                    {slide.text}
+                  </span>
+                </span>
+              </>}
+            </Link>
           ))}
         </div>
 
         {/* Arrows */}
         <button
           onClick={handlePrev}
-          className="absolute top-1/2 left-4 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full transition"
+          className="absolute top-1/2 left-4 -translate-y-1/2 bg-black/10 hover:bg-black/40 text-white p-3 rounded-full transition"
         >
           <ChevronLeft className="h-6 w-6" />
         </button>
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-4 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full transition"
+          className="absolute top-1/2 right-4 -translate-y-1/2 bg-black/10 hover:bg-black/40 text-white p-3 rounded-full transition"
         >
           <ChevronRight className="h-6 w-6" />
         </button>
@@ -103,7 +109,7 @@ export default function Carousel() {
               onClick={() => setCurrent(idx)}
               aria-label="Carousel Index Dots"
               className={`w-3 h-3 rounded-full transition ${
-                idx === current ? "bg-white" : "bg-gray-400"
+                idx === current ? "bg-white" : "bg-gray-500/70"
               }`}
             />
           ))}
