@@ -17,6 +17,7 @@ export default function Hero() {
             className="mt-[-3em]"
           />
         </div>
+        <h1 className="sr-only">21 Days - Avant Life Church</h1>
         {/* Shape Divider */}
         <div className="custom-shape-divider-bottom-1758140629">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

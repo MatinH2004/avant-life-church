@@ -24,7 +24,7 @@ export default function Hero() {
             priority
             className="mt-[2em] z-10"
           />
-          <h1 className="hidden">Kids Life</h1>
+          <h1 className="sr-only">AVANT LIFE YOUTH</h1>
         </div>
         {/* Shape Divider */}
         <div className="custom-shape-divider-bottom-1758140629">
