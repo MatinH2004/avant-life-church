@@ -2,22 +2,22 @@ import Card from "../ui/Card";
 
 const cards = [
   {
-    title: "Alpha",
+    title: "ALPHA",
     href: "/alpha",
     image: "/home/ALPHA.jpeg",
   },
   {
-    title: "Young Adults",
-    href: "#",
+    title: "YOUNG ADULTS",
+    href: "/youth",
     image: "/home/YA.jpg",
   },
   {
-    title: "Avant Life Youth",
+    title: "AVANT LIFE YOUTH",
     href: "/aly",
     image: "/youth/ALY_Cover.webp",
   },
   {
-    title: "KidsLife",
+    title: "KIDSLIFE",
     href: "/kidslife",
     image: "/kidslife/KL.webp",
   },

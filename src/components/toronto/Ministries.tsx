@@ -2,12 +2,12 @@ import Card from "../ui/Card";
 
 const cards = [
   {
-    title: "Alpha",
+    title: "ALPHA",
     href: "/alpha",
     image: "/home/ALPHA.jpeg",
   },
   {
-    title: "KidsLife",
+    title: "KIDSLIFE",
     href: "/kidslife",
     image: "/kidslife/KL.webp",
   },
