@@ -14,7 +14,7 @@ const cards = [
   {
     title: "Avant Life Youth",
     href: "/aly",
-    image: "/youth/youth.webp",
+    image: "/youth/ALY_Cover.webp",
   },
   {
     title: "KidsLife",
