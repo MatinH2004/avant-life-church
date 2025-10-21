@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -10,7 +11,7 @@ export const navItems = [
   { href: "/", label: "HOME" },
   { href: "/#locations", label: "LOCATIONS" },
   { href: "/connect", label: "CONNECT" },
-  { href: "/about", label: "ABOUT US" },
+  { href: "/about", label: "ABOUT" },
   { href: "/give", label: "GIVE" },
 ];
 
@@ -37,9 +38,9 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
   return (
     <header
       className={`
-        fixed top-0 left-0 w-full z-50
-        flex justify-between items-center h-16 px-6
-        bg-white text-black shadow-md
+        fixed top-0 left-0 w-full z-1000
+        flex justify-between items-center h-16 px-2
+        bg-white/95 text-black shadow-md
         transition-all duration-500
         ${
           show
@@ -53,10 +54,19 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
       {/* Logo */}
       <Link
         href="/"
-        className="text-2xl font-semibold tracking-tight flex items-center gap-2 md:ml-12"
+        className="relative flex items-center gap-2 md:ml-12"
       >
-        AVANT LIFE CHURCH
+        <div className="relative w-12 h-12">
+          <Image
+            src="/logo/blacklogo.png"
+            alt="Avant Logo"
+            fill
+            className="object-contain"
+          />
+        </div>
+        <span className="hidden md:inline-block text-2xl font-semibold tracking-tight">AVANT LIFE CHURCH</span>
       </Link>
+
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex gap-6 md:mr-12 font-semibold">
