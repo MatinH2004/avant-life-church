@@ -20,10 +20,10 @@ export const navItems = [
   {
     label: "CONNECT",
     children: [
-      { label: "CONNECT & ENGAGE", href: "/connect/youth" },
-      { label: "PRAISE & PRAYER", href: "/connect/small-groups" },
-      { label: "JOIN A LIFEGROUP", href: "/connect/volunteers" },
-      { label: "YOUTUBE CHANNEL", href: "/connect/volunteers" },
+      { label: "CONNECT & ENGAGE", href: "https://avantlife.churchcenter.com/people/forms/724215" },
+      { label: "PRAISE & PRAYER", href: "https://avantlife.churchcenter.com/people/forms/112752" },
+      { label: "JOIN A LIFEGROUP", href: "https://avantlife.churchcenter.com/people/forms/72092" },
+      { label: "YOUTUBE CHANNEL", href: "https://www.youtube.com/c/AvantLifeChurch" },
     ],
   },
   { href: "/about", label: "ABOUT" },
