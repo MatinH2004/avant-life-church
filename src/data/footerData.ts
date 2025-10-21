@@ -13,16 +13,12 @@ export const footerData = [
         href: "https://avantlife.churchcenter.com/people/forms/112752?open-in-church-center-modal=true",
       },
       { 
-        label: "Join a Life Group",
+        label: "Join a LifeGroup",
         href: "https://avantlife.churchcenter.com/people/forms/72092?open-in-church-center-modal=true"
       },
       {
         label: "YouTube Channel",
         href: "https://www.youtube.com/c/AvantLifeChurch"
-      },
-      { 
-        label: "Give Online",
-        href: "/give", 
       },
       { 
         label: "21 Days Devotional",
