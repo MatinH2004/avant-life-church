@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${myFont.variable} antialiased bg-white`}
+        className={`${myFont.className} antialiased bg-white`}
       >
         <Navbar />
         <main>{children}</main>
