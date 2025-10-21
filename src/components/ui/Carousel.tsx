@@ -16,7 +16,7 @@ interface CarouselProps {
 const slides: CarouselProps[] = [
   {
     id: 1,
-    img: "/home/conference.png",
+    img: "/home/conference-big-img.jpg",
     href: "/conference",
     alt: "Conference Registration",
   },
