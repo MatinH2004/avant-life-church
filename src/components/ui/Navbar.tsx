@@ -74,13 +74,13 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
         <div className="relative w-12 h-12">
           <Image src="/logo/blacklogo.png" alt="Avant Logo" fill className="object-contain" />
         </div>
-        <span className="hidden md:inline-block text-2xl font-semibold tracking-tight">
+        <span className="hidden md:inline-block text-2xl font-semibold tracking-wide mt-1">
           AVANT LIFE CHURCH
         </span>
       </Link>
 
       {/* Desktop Menu */}
-      <nav className="hidden md:flex gap-6 md:mr-12 font-semibold relative">
+      <nav className="hidden md:flex gap-6 md:mr-12 md:mt-1 font-semibold relative">
         {navItems.slice(1).map((item) => {
           const isActive = pathname === item.href;
           const hasChildren = item.children && item.children.length > 0;
