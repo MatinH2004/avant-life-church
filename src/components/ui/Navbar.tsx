@@ -72,7 +72,12 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
       {/* Logo */}
       <Link href="/" className="flex items-center gap-2 md:ml-12">
         <div className="relative w-12 h-12">
-          <Image src="/logo/blacklogo.png" alt="Avant Logo" fill className="object-contain" />
+          <Image 
+            src="/logo/blacklogo.png" 
+            alt="Avant Logo" 
+            fill 
+            sizes="(max-width: 768px) 48px, (max-width: 1200px) 48px, 48px"
+            className="object-contain" />
         </div>
         <span className="hidden md:inline-block text-2xl font-semibold tracking-wide mt-1">
           AVANT LIFE CHURCH
