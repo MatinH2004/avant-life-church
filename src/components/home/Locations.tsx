@@ -10,13 +10,13 @@ export default function Locations() {
       <p className="px-6 py-4 text-center">
         Join us for weekly services with full kids programs! Select your region below to find an Avant Life Church near you now.
       </p>
-      <div className="flex justify-center">
+      <div className="relative w-full max-w-3xl h-auto aspect-[7/4] mx-auto">
         <Image
           src="/home/canada-map.png"
           alt="Locations"
-          className=""
-          width={700}
-          height={400}
+          fill
+          className="object-contain"
+          sizes="(max-width: 768px) 100vw, 700px"
         />
       </div>
       <div className="w-full max-w-3xl mx-auto">

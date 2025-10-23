@@ -27,6 +27,7 @@ export default function WatchOnline() {
             alt="Avant Life Church YouTube"
             width={650}
             height={400}
+            style={{ height: "auto" }}
             className="object-contain"
           />
         </div>
