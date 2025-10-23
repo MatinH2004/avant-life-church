@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${myFont.className} antialiased bg-white`}
       >
-        <Navbar />
+        <Navbar showOnScroll />
         <main>{children}</main>
         <Footer />
       </body>
