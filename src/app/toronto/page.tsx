@@ -4,7 +4,7 @@ import ServiceInfo from "@/components/toronto/ServiceInfo";
 import Ministries from "@/components/toronto/Ministries";
 import Team from "@/components/toronto/Team";
 
-export default async function SquamishPage() {
+export default async function TorontoPage() {
   return (
     <>
       <Hero />
