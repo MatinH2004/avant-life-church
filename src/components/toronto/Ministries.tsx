@@ -4,7 +4,7 @@ const cards = [
   {
     title: "ALPHA",
     href: "/alpha",
-    image: "/home/ALPHA.jpeg",
+    image: "/alpha/alpha_cover.jpeg",
   },
   {
     title: "KIDSLIFE",

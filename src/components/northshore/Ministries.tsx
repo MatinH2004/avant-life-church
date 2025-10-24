@@ -4,17 +4,17 @@ const cards = [
   {
     title: "ALPHA",
     href: "/alpha",
-    image: "/home/ALPHA.jpeg",
+    image: "/alpha/alpha_cover.jpeg",
   },
   {
     title: "YOUNG ADULTS",
-    href: "/",
+    href: "/northshore",
     image: "/home/YA.jpg",
   },
   {
     title: "AVANT LIFE YOUTH",
     href: "/youth",
-    image: "/youth/ALY_Cover.webp",
+    image: "/youth/ALY_Cover.jpg",
   },
   {
     title: "KIDSLIFE",
