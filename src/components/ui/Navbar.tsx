@@ -90,11 +90,25 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
           const isActive = pathname === item.href;
           const hasChildren = item.children && item.children.length > 0;
 
+          if (!hasChildren) {
+            return (
+              <Link
+                key={item.label}
+                href={item.href!}
+                className={`transition hover:text-gray-400 flex items-center gap-1 ${
+                  isActive ? "text-gray-800" : "text-black"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          }
+
           return (
             <div
               key={item.label}
               className="relative"
-              onMouseEnter={() => setHoveredDropdown(hasChildren ? item.label : null)}
+              onMouseEnter={() => setHoveredDropdown(item.label)}
               onMouseLeave={handleMouseLeave}
             >
               <button
@@ -103,10 +117,10 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
                   isActive ? "text-gray-800" : "text-black"
                 }`}
               >
-                {item.label} {hasChildren && <ChevronDown size={16} />}
+                {item.label} <ChevronDown size={16} />
               </button>
 
-              {hasChildren && hoveredDropdown === item.label && (
+              {hoveredDropdown === item.label && (
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
