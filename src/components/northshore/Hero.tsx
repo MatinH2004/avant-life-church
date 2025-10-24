@@ -72,22 +72,22 @@ export default function Hero() {
           <h1 className="text-white font-bold text-5xl md:text-5xl mt-5">NORTH SHORE</h1>
 
           <div className="flex flex-wrap justify-center space-x-6 mt-6 text-white text-2xl">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/avantlifenorthshore" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="hover:text-blue-500 transition-colors" />
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <a href="https://www.youtube.com/c/AvantLifeChurch" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <FaYoutube className="hover:text-red-500 transition-colors" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/avantlifenorthshore/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="hover:text-pink-500 transition-colors" />
             </a>
-            <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+            <a href="https://open.spotify.com/show/6Osh174jPUdX9CS9GJyy72" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
               <FaSpotify className="hover:text-green-500 transition-colors" />
             </a>
-            <a href="https://podcasts.apple.com" target="_blank" rel="noopener noreferrer" aria-label="Apple Podcasts">
+            <a href="https://podcasts.apple.com/ca/podcast/avant-life-church/id1480171888" target="_blank" rel="noopener noreferrer" aria-label="Apple Podcasts">
               <FaApple className="hover:text-gray-300 transition-colors" />
             </a>
-            <a href="https://soundcloud.com" target="_blank" rel="noopener noreferrer" aria-label="SoundCloud">
+            <a href="https://on.soundcloud.com/jODjRt93LyBS2hAqGL" target="_blank" rel="noopener noreferrer" aria-label="SoundCloud">
               <FaSoundcloud className="hover:text-orange-500 transition-colors" />
             </a>
           </div>
