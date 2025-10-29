@@ -52,7 +52,7 @@ export default function Hero() {
           className="absolute inset-0 w-full h-full object-cover user-select-none pointer-events-none"
         >
           <source
-            src="/squamish/SQ_Cover.webm"
+            src="/squamish/SQ_Cover_720p.webm"
             type="video/webm"
           />
         </video>

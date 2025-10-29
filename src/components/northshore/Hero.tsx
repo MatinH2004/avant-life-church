@@ -52,7 +52,7 @@ export default function Hero() {
           className="absolute inset-0 w-full h-full object-cover user-select-none pointer-events-none"
         >
           <source
-            src="/northshore/NS_Cover.webm"
+            src="/northshore/NS_Cover_720p.webm"
             type="video/webm"
           />
         </video>
