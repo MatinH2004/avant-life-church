@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="relative bg-black h-125 w-full">
         {/* BG Image */}
         <Image
-          src="/home/ALPHA.jpeg"
+          src="/alpha/alpha_cover.jpeg"
           alt="Background"
           fill
           priority
