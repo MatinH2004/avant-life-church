@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const navItems = [
@@ -133,9 +133,10 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
                     <Link
                       key={child.label}
                       href={child.href!}
+                      target="_blank"
                       className="px-4 py-2 text-black hover:bg-gray-100 flex justify-between items-center"
                     >
-                      {child.label} <ChevronRight size={12} />
+                      {child.label}
                     </Link>
                   ))}
                 </motion.div>
