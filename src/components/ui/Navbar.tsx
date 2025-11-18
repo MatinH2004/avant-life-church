@@ -23,7 +23,7 @@ export const navItems = [
       { label: "CONNECT & ENGAGE", href: "https://avantlife.churchcenter.com/people/forms/724215" },
       { label: "PRAISE & PRAYER", href: "https://avantlife.churchcenter.com/people/forms/112752" },
       { label: "JOIN A LIFEGROUP", href: "https://avantlife.churchcenter.com/people/forms/72092" },
-      { label: "YOUTUBE CHANNEL", href: "https://www.youtube.com/c/AvantLifeChurch" },
+      { label: "PODCAST", href: "https://www.youtube.com/c/AvantLifeChurch" },
     ],
   },
   { href: "/about", label: "ABOUT" },
