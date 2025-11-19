@@ -1,4 +1,4 @@
-import Card from "../ui/Card";
+import Card from "@/components/ui/Card";
 
 const cards = [
   {
@@ -8,13 +8,13 @@ const cards = [
   },
   {
     title: "YOUNG ADULTS",
-    href: "/northshore",
+    href: "/youngadults",
     image: "/home/YA.jpg",
   },
   {
     title: "AVANT LIFE YOUTH",
-    href: "/youth",
-    image: "/youth/ALY_Cover.jpg",
+    href: "/aly",
+    image: "/aly/ALY_Cover.jpg",
   },
   {
     title: "KIDSLIFE",

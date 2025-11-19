@@ -1,5 +1,5 @@
-import Hero from "@/components/kidslife/Hero";
-import Details from "@/components/kidslife/Details";
+import Hero from "@/components/ministry/kidslife/Hero";
+import Details from "@/components/ministry/kidslife/Details";
 
 export default function KidsLifePage() {
   return (

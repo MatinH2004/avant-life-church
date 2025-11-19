@@ -58,6 +58,8 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
   const handleMouseEnter = () => {
     clearTimeout(hideTimeout);
   };
+  const isExternal = (href?: string) =>
+    typeof href === "string" && /^(https?:)?\/\//.test(href);
 
   return (
     <header
@@ -133,7 +135,8 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
                     <Link
                       key={child.label}
                       href={child.href!}
-                      target="_blank"
+                      target={isExternal(child.href) ? "_blank" : undefined}
+                      rel={isExternal(child.href) ? "noopener noreferrer" : undefined}
                       className="px-4 py-2 text-black hover:bg-gray-100 flex justify-between items-center"
                     >
                       {child.label}

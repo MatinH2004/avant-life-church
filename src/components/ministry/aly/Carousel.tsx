@@ -14,42 +14,42 @@ interface CarouselProps {
 const slides: CarouselProps[] = [
   {
     id: 1,
-    img: "/youth/aly1.jpg",
+    img: "/aly/aly1.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 2,
-    img: "/youth/aly2.jpg",
+    img: "/aly/aly2.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 3,
-    img: "/youth/aly3.jpg",
+    img: "/aly/aly3.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 4,
-    img: "/youth/aly4.jpg",
+    img: "/aly/aly4.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 5,
-    img: "/youth/aly5.jpg",
+    img: "/aly/aly5.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 6,
-    img: "/youth/aly6.jpg",
+    img: "/aly/aly6.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 7,
-    img: "/youth/aly7.jpg",
+    img: "/aly/aly7.jpg",
     alt: "AVANT LIFE YOUTH",
   },
   {
     id: 8,
-    img: "/youth/aly8.jpg",
+    img: "/aly/aly8.jpg",
     alt: "AVANT LIFE YOUTH",
   },
 ];

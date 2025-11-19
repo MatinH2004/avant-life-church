@@ -1,5 +1,5 @@
-import Hero from "@/components/alpha/Hero";
-import Details from "@/components/alpha/Details";
+import Hero from "@/components/ministry/alpha/Hero";
+import Details from "@/components/ministry/alpha/Details";
 
 export default function AlphaPage() {
   return (

@@ -71,13 +71,13 @@ export default function Hero() {
             className="mt-[-3em]"
           />
           <div className="mt-8 flex flex-col md:flex-row gap-4">
-            <Button href="#" text="Connect" />
+            <Button href="#get-connected" text="Connect" />
             <Button href="/about" text="About Us" />
             <Button href="/give" text="Give" />
           </div>
           <div className="hidden mt-4 md:flex md:flex-row gap-4">
             <Button href="#locations" text="Locations" />
-            <Button href="/give" text="Events" />
+            <Button href="#" text="Events" />
             <Button href="/kidslife" text="KidsLife" />
           </div>
         </div>
