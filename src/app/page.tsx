@@ -1,6 +1,6 @@
 import Hero from "@/components/home/Hero";
 import Locations from "@/components/home/Locations";
-import WatchOnline from "@/components/home/WatchOnline";
+import GetConnected from "@/components/home/GetConnected";
 import Team from "@/components/home/Team";
 
 export default function HomePage() {
@@ -8,7 +8,7 @@ export default function HomePage() {
     <>
       <Hero />
       <Locations />
-      <WatchOnline />
+      <GetConnected />
       <Team />
     </>
   );
