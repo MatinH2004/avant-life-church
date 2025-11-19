@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function GetConnectedSection() {
   return (
-    <section className="w-full bg-white py-16">
+    <section id="get-connected" className="w-full bg-white py-16">
       <div className="mx-auto max-w-7xl px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE */}
