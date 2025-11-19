@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDown, ChevronRight } from "lucide-react";
 import { campuses } from "@/data/campusData";
 
 export default function Locations() {
@@ -37,14 +36,6 @@ export default function Locations() {
               "
             >
               <span>{campus.name}</span>
-
-              {/* Icons: mobile = right, desktop = down */}
-              <span className="md:hidden">
-                <ChevronRight size={18} />
-              </span>
-              <span className="hidden md:inline">
-                <ChevronDown size={18} />
-              </span>
             </Link>
           ))}
         </div>
