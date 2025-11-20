@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Button from "../ui/Button";
 
 export default function GetConnectedSection() {
@@ -24,12 +24,15 @@ export default function GetConnectedSection() {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="w-full h-64 md:h-full relative">
-          <div className="bg-gray-200 w-full h-full rounded-xl flex items-center justify-center text-gray-500 text-lg">
-            IMAGE BLOCK
-          </div>
+        <div className="w-full h-64 md:h-full relative rounded-xl overflow-hidden">
+          <Image
+            src="/home/get-connected.JPG"
+            alt="Get Connected"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
-
       </div>
     </section>
   );
