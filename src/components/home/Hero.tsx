@@ -77,7 +77,7 @@ export default function Hero() {
           </div>
           <div className="hidden mt-4 md:flex md:flex-row gap-4">
             <Button href="#locations" text="Locations" />
-            <Button href="#" text="Events" />
+            <Button href="/events" text="Events" />
             <Button href="/kidslife" text="KidsLife" />
           </div>
         </div>
