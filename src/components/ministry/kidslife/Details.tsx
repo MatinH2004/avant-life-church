@@ -16,7 +16,7 @@ export default function Details() {
       ],
     },
     {
-      title: "Who It's For",
+      title: "Who Is KidsLife For",
       paragraphs: [
         `<b>We have two age group programs:</b>`,
         `- Ages 1 (and walking) to 4 years`,
