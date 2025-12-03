@@ -4,7 +4,7 @@ export default function Team() {
   return (
     <section className="px-6 py-4 max-w-screen-lg mx-auto">
       <h2 className="text-center font-semibold py-6 text-4xl md:text-5xl">
-        TEAM
+        CAMPUS PASTORS
       </h2>
       <div className="flex flex-col items-center justify-center">
         <Image
