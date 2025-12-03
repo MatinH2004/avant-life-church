@@ -43,7 +43,7 @@ export default function Hero() {
           className="object-cover"
         />
 
-        <video
+        {/* <video
           ref={videoRef}
           autoPlay
           loop
@@ -57,7 +57,7 @@ export default function Hero() {
             src="/home/video/hero-bg2.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> */}
 
         <div className="absolute inset-0 bg-black/20" />
 

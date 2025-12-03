@@ -42,7 +42,7 @@ export default function Hero() {
           className="object-cover"
         />
 
-        <video
+        {/* <video
           ref={videoRef}
           autoPlay
           loop
@@ -55,7 +55,7 @@ export default function Hero() {
             src="/toronto/TO_Cover.webm"
             type="video/webm"
           />
-        </video>
+        </video> */}
 
         <div className="absolute inset-0 bg-black/20"></div>
 
