@@ -11,9 +11,8 @@ export default function GetConnectedSection() {
           <h2 className="text-3xl font-bold">Get Connected</h2>
 
           <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non
-            eros eget urna vulputate gravida. Praesent id leo eget urna dapibus
-            sodales vel sit amet neque.
+            Sign up for campus emails, join a Life Group, or connect with our 
+            pastoral team for prayer.
           </p>
 
           <div className="flex flex-col items-start space-y-4 pt-4">
