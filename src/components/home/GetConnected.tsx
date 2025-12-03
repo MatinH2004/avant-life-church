@@ -16,9 +16,9 @@ export default function GetConnectedSection() {
           </p>
 
           <div className="flex flex-col items-start space-y-4 pt-4">
-            <Button text="Sign Up" href="#" bg="blue" bold={true} />
-            <Button text="Join a Life Group" href="#" bg="yellow" bold={true} />
-            <Button text="Praise & Prayer" href="#" bg="black" bold={true} />
+            <Button text="Sign Up" href="https://avantlife.churchcenter.com/people/forms/724215" bg="blue" newTab={true} />
+            <Button text="Join a Life Group" href="https://avantlife.churchcenter.com/people/forms/72092" bg="yellow" newTab={true} />
+            <Button text="Praise & Prayer" href="https://avantlife.churchcenter.com/people/forms/112752" bg="black" newTab={true} />
           </div>
         </div>
 
