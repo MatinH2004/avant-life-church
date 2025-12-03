@@ -4,6 +4,7 @@ type ButtonProp = {
   text: string;
   href: string;
   bold?: boolean;
+  newTab?: boolean;
   bg?: "blue" | "red" | "green" | "black" | "white" | "purple" | "yellow";
 };
 
@@ -17,7 +18,7 @@ const colorMap: Record<string, string> = {
   purple: "bg-purple-600 hover:bg-purple-700 text-white",
 };
 
-export default function Button({ text, href, bg = "white", bold = true}: ButtonProp) {
+export default function Button({ text, href, bg = "white", bold = true, newTab = false}: ButtonProp) {
   return (
     <Link
       href={href}
@@ -34,6 +35,7 @@ export default function Button({ text, href, bg = "white", bold = true}: ButtonP
         transition
         text-center
       `}
+      target={newTab ? "_blank" : undefined}
     >
       {text}
     </Link>
