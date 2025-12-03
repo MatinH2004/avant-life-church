@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -30,22 +30,23 @@ export const navItems = [
   { href: "/give", label: "GIVE" },
 ];
 
-type NavbarProps = {
-  showOnScroll?: boolean;
-};
+// type NavbarProps = {
+//   showOnScroll?: boolean;
+// };
 
-export default function Navbar({ showOnScroll = false }: NavbarProps) {
+// export default function Navbar({ showOnScroll = false }: NavbarProps) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [mobileMenuStack, setMobileMenuStack] = useState(navItems);
-  const [show, setShow] = useState(!showOnScroll);
+  // const [show, setShow] = useState(!showOnScroll);
   const pathname = usePathname();
 
-  useEffect(() => {
-    if (!showOnScroll) return;
-    const handleScroll = () => setShow(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [showOnScroll]);
+  // useEffect(() => {
+  //   if (!showOnScroll) return;
+  //   const handleScroll = () => setShow(window.scrollY > 50);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [showOnScroll]);
 
   // Desktop dropdown hover state
   const [hoveredDropdown, setHoveredDropdown] = useState<string | null>(null);
@@ -68,8 +69,8 @@ export default function Navbar({ showOnScroll = false }: NavbarProps) {
         flex justify-between items-center h-16 px-4
         bg-white/95 text-black shadow-md
         transition-all duration-500
-        ${show ? "opacity-100 translate-y-0" : showOnScroll ? "opacity-0 -translate-y-10" : ""}
       `}
+      // ${show ? "opacity-100 translate-y-0" : showOnScroll ? "opacity-0 -translate-y-10" : ""} <- header className
     >
       {/* Logo */}
       <Link href="/" className="flex items-center gap-2 md:ml-12">

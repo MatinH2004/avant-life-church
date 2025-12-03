@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import NavbarController from "@/components/ui/NavbarController";
+import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
 
 const myFont = localFont({
@@ -42,7 +42,7 @@ export default function RootLayout({
       <body
         className={`${myFont.className} antialiased bg-white`}
       >
-        <NavbarController />
+        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>
