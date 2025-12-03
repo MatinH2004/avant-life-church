@@ -64,7 +64,7 @@ export const footerData = [
     items: [
       {
         label: "Avant Life Youth",
-        href: "/youth",
+        href: "/aly",
       },
       {
         label: "KidsLife",
