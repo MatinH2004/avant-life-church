@@ -17,7 +17,7 @@ export default function GetConnectedSection() {
 
           <div className="flex flex-col items-start space-y-4 pt-4">
             <Button text="Sign Up" href="#" bg="blue" bold={true} />
-            <Button text="Join a LifeGroup" href="#" bg="yellow" bold={true} />
+            <Button text="Join a Life Group" href="#" bg="yellow" bold={true} />
             <Button text="Praise & Prayer" href="#" bg="black" bold={true} />
           </div>
         </div>
