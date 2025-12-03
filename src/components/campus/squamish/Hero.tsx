@@ -78,7 +78,7 @@ export default function Hero() {
             <a href="https://www.youtube.com/c/AvantLifeChurch" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <FaYoutube className="hover:text-red-500 transition-colors" />
             </a>
-            <a href="https://www.instagram.com/avantlifesquamish/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/avantlifesquamish_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="hover:text-pink-500 transition-colors" />
             </a>
             <a href="https://open.spotify.com/show/6Osh174jPUdX9CS9GJyy72" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
