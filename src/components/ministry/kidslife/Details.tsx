@@ -39,21 +39,6 @@ export default function Details() {
           paragraphs={section.paragraphs}
         />
       ))}
-      <div className="flex flex-col md:flex-row justify-center items-center md:gap-12">
-        <div>
-          <h2 className="text-center font-semibold mt-6 text-3xl md:text-4xl">KidsLife Pastor</h2>
-          <p className="text-center">Pastor Alycia Findlay</p>
-          <div className="flex justify-center">
-            <Image
-              src="/kidslife/PS_Alycia.jpg"
-              width={300}
-              height={300}
-              alt="Kid's Life Pastor"
-              className="object-contain rounded-xl"
-            />
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
