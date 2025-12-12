@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface Sections {
   title?: string; // optional, since some sections may not have titles
   paragraphs: string[];
