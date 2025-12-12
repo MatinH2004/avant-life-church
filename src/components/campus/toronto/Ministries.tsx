@@ -11,6 +11,11 @@ const cards = [
     href: "/kidslife",
     image: "/kidslife/KL.webp",
   },
+  {
+    title: "YOUNG ADULTS",
+    href: "/youngadults",
+    image: "/home/YA.jpg",
+  },
 ];
 
 export default function Ministries() {
