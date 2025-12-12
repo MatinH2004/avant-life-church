@@ -19,12 +19,12 @@ export default function Hero() {
           <Image
             src="/global/avant-logo-white.png"
             alt="Avant Life Church Logo"
-            width={200}
-            height={200}
+            width={180}
+            height={180}
             priority
-            className="mt-[2em] z-10"
+            className="mt-[-3em]"
           />
-          <h1 className="sr-only">YOUNG ADULTS</h1>
+          <h1 className="text-white font-bold text-4xl md:text-5xl">YOUNG ADULTS</h1>
         </div>
         {/* Shape Divider */}
         <div className="custom-shape-divider-bottom-1758140629">
