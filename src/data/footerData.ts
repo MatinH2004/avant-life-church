@@ -13,8 +13,12 @@ export const footerData = [
         href: "https://avantlife.churchcenter.com/people/forms/112752?open-in-church-center-modal=true",
       },
       { 
-        label: "Join a LifeGroup",
+        label: "Join a Life Group",
         href: "https://avantlife.churchcenter.com/people/forms/72092?open-in-church-center-modal=true"
+      },
+      {
+        label: "Podcast",
+        href: "/podcast"
       },
       {
         label: "YouTube Channel",
@@ -65,6 +69,10 @@ export const footerData = [
       {
         label: "Avant Life Youth",
         href: "/aly",
+      },
+      {
+        label: "Young Adults",
+        href: "/youngadults"
       },
       {
         label: "KidsLife",
