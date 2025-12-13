@@ -29,13 +29,19 @@ export default function Details() {
         </p>
 
         <div className="py-4 flex justify-center">
-          <Button
-            text="Learn More"
-            href="https://www.youtube.com/watch?v=DCck-cySK7I"
-            bg="black"
-            bold={true}
-          />
+          <div className="w-full max-w-3xl aspect-video">
+            <iframe
+              src="https://www.youtube.com/embed/DCck-cySK7I?si=ybkUYsfCLup3qRuo"
+              title="YouTube video player"
+              className="w-full h-full rounded-lg"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
         </div>
+
       </div>
 
       {/* Subsection: In Every Session */}
