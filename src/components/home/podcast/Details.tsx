@@ -1,11 +1,11 @@
-import { FaSpotify, FaSoundcloud, FaApple } from "react-icons/fa";
+import { FaSpotify, FaApple } from "react-icons/fa";
 
 
 export default function Details() {
   return (
     <section className="px-6 mx-auto max-w-screen-sm">
       <div className="text-center">
-        <h2 className="text-bold text-4xl">Listen to the Podcast</h2>
+        <h2 className="font-bold text-4xl">Listen to the Podcast</h2>
         <p className="text-lg py-2">Catch up on the latest episodes of the Avant Life Church Podcast.</p>
       </div>
       <div className="py-4 text-center">
