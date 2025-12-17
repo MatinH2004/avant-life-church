@@ -21,7 +21,7 @@ export const footerData = [
         href: "/podcast"
       },
       {
-        label: "YouTube Channel",
+        label: "YouTube",
         href: "https://www.youtube.com/c/AvantLifeChurch"
       },
       { 
