@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="relative bg-black h-125 w-full">
         {/* BG Image */}
         <Image
-          src="/youth/ALY_Cover.jpg"
+          src="/aly/ALY_Cover.jpg"
           alt="Background"
           fill
           priority
@@ -17,7 +17,7 @@ export default function Hero() {
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <Image
-            src="/youth/ALY_Logo.png"
+            src="/aly/ALY_Logo.png"
             alt="Avant Life Church Logo"
             width={330}
             height={180}
