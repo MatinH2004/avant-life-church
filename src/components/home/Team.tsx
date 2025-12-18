@@ -26,20 +26,19 @@ export default function Team() {
         {/* TEXT */}
         <div className="px-6">
           <p className="my-2">
-            Pastors Ben and Emma Narayanan are the Lead Pastors of Avant Life
-            Church. As leaders both Ps Ben and Ps Emma are passionate about
-            sharing the message of Christ through boldness, innovation and
-            creativity.
+            Pastors Ben and Emma Narayanan are the Lead Pastors of Avant Life Church. 
+            As leaders, both Ps Ben and Ps Emma are passionate about sharing the message 
+            of Christ through boldness, innovation, and creativity.
           </p>
           <p className="my-2">
-            After hearing the clear call from God they moved to North Vancouver
-            Canada with their three amazing children Levi, Alice and Eden from
-            Canberra Australia to pioneer Avant Life Church.
+            After hearing the clear call from God they moved to North Vancouver, Canada with 
+            their three amazing children Levi, Alice, and Eden from Canberra, Australia to 
+            pioneer Avant Life Church.
           </p>
           <p className="my-2">
-            Their hearts for people, leadership development and community
-            engagement has helped establish Avant Life Church as a thriving,
-            relevant and transformational Christ centred community.
+            Their hearts for people, leadership development, and community engagement have 
+            helped establish Avant Life Church as a thriving, relevant, and transformational 
+            Christ-centred community.
           </p>
         </div>
       </div>

@@ -6,12 +6,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 const faqs = [
   {
     question: "How do I register?",
-    answer: `
-      You can register at our Youth Night! Just come by at <strong>7:00 PM</strong> 
-      and bring a parent or guardian to fill out the registration form. 
-      We&apos;ll take care of everything when you arrive, and you&apos;ll be ready 
-      to join in on all the fun that night!
-    `,
+    answer: `You can register at our Youth Night! Just come by at 7:00 PM and bring a parent or guardian to fill out the registration form. We'll take care of everything when you arrive, and you'll be ready to join in on all the fun that night!`,
   },
   {
     question: "Should I bring anything?",

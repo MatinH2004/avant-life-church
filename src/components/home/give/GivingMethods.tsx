@@ -58,8 +58,7 @@ export default function GivingMethods() {
             className="object-contain mb-4"
           />
           <p className="mb-4 text-sm max-w-sm">
-            Interac e-Transfer is the preferred way to give as all of the funds
-            go towards our mission and cuts out payment processor fees.
+            Interac e-Transfer is the preferred way to give as all of the funds go towards our mission and cuts out payment processor fees.
           </p>
           <button
             className={`

@@ -8,8 +8,8 @@ export default function Details() {
     {
       title: "Who We Are",
       paragraphs: [
-        `KidsLife is an innovative children&apos;s ministry that exists to love, care for and serve children and families. We believe in raising children that love Jesus with their whole heart and teaching them how to live in such a way that honours and worships Him through every area of their life.`,
-        `At KidsLife, we foster the fun, limitless and natural faith that children possess. We  provide a safe and nurturing environment, where children can encounter the love of Jesus through praise and worship, prayer, communion, giving, teaching the Bible and lots of fun games and activities.`,
+        `KidsLife is an innovative children's ministry that exists to love, care for, and serve children and families. We believe in raising children that love Jesus with their whole heart and teaching them how to live in such a way that honours and worships Him through every area of their life.`,
+        `At KidsLife, we foster the fun, limitless, and natural faith that children possess. We provide a safe and nurturing environment, where children can encounter the love of Jesus through praise and worship, prayer, communion, giving, teaching the Bible, and lots of fun games and activities.`,
         `We seek to make following Jesus a fun and exciting journey that everyone wants to be a part of!`,
       ],
     },
@@ -23,7 +23,7 @@ export default function Details() {
         `- North Shore @ 9:00am & 11:30am`,
         `- Squamish @ 10:00am`,
         `- Toronto @ 9:30am`,
-        `If you&apos;d like to register your child, you can do so at the check in desk on Sundays.`,
+        `If you&apos;d like to register your child, you can do so at the check-in desk on Sundays.`,
       ],
     },
   ];

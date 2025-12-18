@@ -10,10 +10,10 @@ interface Sections {
 export default function Details() {
   const sections: Sections[] = [
     {
-      title: "WHO WE ARE",
+      title: "Who We Are",
       paragraphs: [
-        `Avant Life Youth (ALY) is our youth ministry at Avant Life Church. ALY is a youth program designed and facilitated for students in grades 6 - 12.`,
-        `Our desire at ALY is for young people across Avant Life Church, BC and Canada to grow in their own personal faith in Jesus Christ, be empowered by His Holy Spirit and walk in the fullness of God&apos;s calling.`,
+        `Avant Life Youth (ALY) is our youth ministry at Avant Life Church. ALY is a youth program designed and facilitated for students in grades 6-12.`,
+        `Our desire at ALY is for young people across Avant Life Church, BC and Canada to grow in their own personal faith in Jesus Christ, be empowered by His Holy Spirit, and walk in the fullness of God's calling.`,
       ],
     },
   ];
